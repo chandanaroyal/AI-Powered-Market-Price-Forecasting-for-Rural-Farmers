@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+
+:root {
+  --bg-dark: #050810;
+  --glass: rgba(15, 23, 42, 0.7);
+  --accent: #22c55e;
+  --gold: #facc15;
+  --danger: #ef4444;
+}
+
+/* Main Background */
+.stApp {
+    background: radial-gradient(circle at 50% -20%, #0f172a 0%, var(--bg-dark) 100%) !important;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #f8fafc;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background: rgba(2, 6, 23, 0.95) !important;
+    backdrop-filter: blur(20px);
+    border-right: 1px solid var(--gold);
+}
+
+[data-testid="stSidebar"] label, [data-testid="stSidebar"] p {
+    color: var(--gold) !important;
+    font-weight: 700 !important;
+}
+
+/* Data Table Visibility Fix */
+.stTable td {
+    color: #ffffff !important;
+    font-weight: 500 !important;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.stTable th {
+    color: var(--gold) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Weather Alert Header */
+.weather-alert {
+    background: rgba(239, 68, 68, 0.2);
+    border: 2px solid var(--danger);
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 25px;
+    animation: pulse-red 2s infinite;
+}
+
+@keyframes pulse-red {
+    0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+    70% { box-shadow: 0 0 0 15px rgba(239, 68, 68, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+/* KPI Cards */
+.kpi-card {
+    background: var(--glass);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 25px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* News Ticker at Bottom */
+.ticker-wrap {
+    width: 100%; overflow: hidden; background: rgba(34, 197, 94, 0.15);
+    padding: 12px 0; position: fixed; bottom: 0; left: 0; z-index: 999;
+    border-top: 1px solid var(--accent);
+}
+.ticker { display: inline-block; white-space: nowrap; animation: ticker 40s linear infinite; color: white; }
+@keyframes ticker { 0% { transform: translate3d(100%, 0, 0); } 100% { transform: translate3d(-100%, 0, 0); } }
