@@ -72,8 +72,8 @@ Streamlit
 🛠 Development Tools
 
 Visual Studio Code GitHub
-'''bash
 
+'''bash
 
 ## 📁 Project Structure
 
