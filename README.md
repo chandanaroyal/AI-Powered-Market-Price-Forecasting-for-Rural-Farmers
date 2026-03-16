@@ -73,9 +73,13 @@ Streamlit
 
 Visual Studio Code GitHub
 '''bash
+
+
 ## 📁 Project Structure
+
 AI-Powered-Market-Price-Forecasting-For-Rural-Farmers
-│ ├── src │ 
+│ 
+├── src │ 
 ├── app.py │
 ├── train_bilstm.py │ 
 ├── data │ 
