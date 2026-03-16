@@ -22,7 +22,7 @@ Agricultural markets are highly dynamic and unpredictable. Farmers often rely on
 Therefore, an intelligent system is required that can combine historical market data with sentiment indicators to provide reliable price predictions and actionable insights.
 
 ## ✨ Key Features
-## 🌱 AI-Based Price Prediction using BiLSTM 📊 Interactive Data Visualization using Plotly 📍 Location-based commodity filtering 📈 Price trend analysis 💬 Sentiment analysis integration ⚡ Market volatility insights 🤖 AI advisory recommendations (Buy / Hold / Sell) 📉 Price change monitoring
+ 🌱 AI-Based Price Prediction using BiLSTM 📊 Interactive Data Visualization using Plotly 📍 Location-based commodity filtering 📈 Price trend analysis 💬 Sentiment analysis integration ⚡ Market volatility insights 🤖 AI advisory recommendations (Buy / Hold / Sell) 📉 Price change monitoring
 
 ## 📂 Dataset Description
 The dataset used in this project contains agricultural commodity market information with the following attributes:
