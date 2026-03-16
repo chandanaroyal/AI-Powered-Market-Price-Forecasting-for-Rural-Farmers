@@ -1,4 +1,4 @@
-##🌾AI-Powered Market Price Forecasting for Rural Farmers
+# 🌾AI-Powered Market Price Forecasting for Rural Farmers
 An AI-driven agricultural commodity price forecasting system that predicts market prices using BiLSTM deep learning and sentiment analysis. The system provides insights through an interactive Streamlit dashboard to help farmers and analysts understand price trends and make better market decisions.
 
 📌 Project Overview
