@@ -92,7 +92,7 @@ AI-Powered-Market-Price-Forecasting-For-Rural-Farmers/
 └── setup_instructions.md
 
 ## ⚙ Installation Guide
-## 1️⃣ Clone the Repository git clone https://github.com/MBKavyasree/AI-Powered-Market-Price-Forecasting-For-Rural-Farmers.git
+## 1️⃣ Clone the Repository git clone https://github.com/chandanaroyal/AI-Powered-Market-Price-Forecasting-for-Rural-Farmers.git
 
 ## 2️⃣ Navigate to Project Folder
 cd AI-Powered-Market-Price-Forecasting-For-Rural-Farmers
