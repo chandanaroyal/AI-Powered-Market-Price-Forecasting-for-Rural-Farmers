@@ -72,10 +72,20 @@ Streamlit
 🛠 Development Tools
 
 Visual Studio Code GitHub
-
+'''bash
 ## 📁 Project Structure
 AI-Powered-Market-Price-Forecasting-For-Rural-Farmers
-│ ├── src │ ├── app.py │ ├── train_bilstm.py │ ├── data │ └── finalcapdata_india_all_districts.csv │ ├── docs │ └── project_documentation │ ├── architecture.png ├── requirements.txt ├── README.md └── setup_instructions.md
+│ ├── src │ 
+├── app.py │
+├── train_bilstm.py │ 
+├── data │ 
+└── finalcapdata_india_all_districts.csv │ 
+├── docs │
+└── project_documentation │ 
+├── architecture.png
+├── requirements.txt 
+├── README.md 
+└── setup_instructions.md
 
 ## ⚙ Installation Guide
 ## 1️⃣ Clone the Repository git clone https://github.com/MBKavyasree/AI-Powered-Market-Price-Forecasting-For-Rural-Farmers.git
