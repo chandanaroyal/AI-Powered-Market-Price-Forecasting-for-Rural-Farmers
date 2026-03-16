@@ -77,11 +77,11 @@ Visual Studio Code GitHub
 
 ## 📁 Project Structure
 
-AI-Powered-Market-Price-Forecasting-For-Rural-Farmers
+AI-Powered-Market-Price-Forecasting-For-Rural-Farmers/
 │ 
-├── src │ 
-├── app.py │
-├── train_bilstm.py │ 
+├── src/ 
+│  └──app.py
+   ├── train_bilstm.py
 ├── data │ 
 └── finalcapdata_india_all_districts.csv │ 
 ├── docs │
