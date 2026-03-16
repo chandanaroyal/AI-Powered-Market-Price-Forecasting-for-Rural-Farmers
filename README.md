@@ -73,7 +73,7 @@ Streamlit
 
 Visual Studio Code GitHub
 
-'''bash
+```bash
 
 ## 📁 Project Structure
 
